@@ -3,3 +3,8 @@
     --second-color:#D9D9D9;
     --second-blue: #151354;
 }
+
+.blue_bg{
+    background-color: var(--main-color);
+    color: white;
+}
