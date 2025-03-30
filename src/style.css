@@ -3,10 +3,15 @@
     --second-color:#D9D9D9;
     --second-blue: #151354;
 }
-
+*{
+    font-family: "Inter", sans-serif;
+}
 .blue_bg{
     background-color: var(--main-color);
 }
 .blue-silver{
     background: linear-gradient(90deg, var(--main-color) 0%, var(--second-color) 100%);
+}
+.title_size{
+    font-size: 90px;
 }
