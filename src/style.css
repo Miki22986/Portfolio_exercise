@@ -1,7 +1,8 @@
 :root{
     --main-color: #050430;
-    --second-color:#D9D9D9;
+    --second-color:#cfcfcf;
     --second-blue: #151354;
+    --second-scolor-write:#7d7d7d;
 }
 *{
     font-family: "Inter", sans-serif;
@@ -18,4 +19,28 @@
 .border_blu{
     border: 3px solid var(--second-blue);
     border-radius: 20px;
+}
+.projects{
+    font-size: 65px;
+}
+h3{
+    font-size: 55px;
+}
+button{
+    border: #151354 2px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: var(--second-blue);
+}
+p{
+    color: var(--second-scolor-write);
+}
+.languages{
+    list-style-type: none;
 }
