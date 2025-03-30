@@ -14,7 +14,7 @@
     background: linear-gradient(90deg, var(--main-color) 0%, var(--second-color) 100%);
 }
 .title_size{
-    font-size: 90px;
+    font-size: 110px;
 }
 .border_blu{
     border: 3px solid var(--second-blue);
