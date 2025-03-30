@@ -7,3 +7,6 @@
 .blue_bg{
     background-color: var(--main-color);
 }
+.blue-silver{
+    background: linear-gradient(90deg, var(--main-color) 0%, var(--second-color) 100%);
+}
