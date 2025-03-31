@@ -2,7 +2,7 @@
     --main-color: #050430;
     --second-color:#cfcfcf;
     --second-blue: #151354;
-    --second-scolor-write:#7d7d7d;
+    --second-scolor-write:#717070;
 }
 *{
     font-family: "Inter", sans-serif;
@@ -47,9 +47,16 @@ p{
 .languages{
     list-style-type: none;
 }
+
+/* about page */
 .presentation{
-    padding: 100px;
+    padding: 90px;
 }
+.about_size{
+    font-size: 65px;
+    color: #474747;
+}
+
 @media only screen and (max-width: 576px) {
     h2.givemespace {
         margin-top: 15px;
