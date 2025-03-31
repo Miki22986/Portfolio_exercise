@@ -47,6 +47,9 @@ p{
 .languages{
     list-style-type: none;
 }
+.presentation{
+    padding: 100px;
+}
 @media only screen and (max-width: 576px) {
     h2.givemespace {
         margin-top: 15px;
