@@ -7,6 +7,26 @@
 *{
     font-family: "Inter", sans-serif;
 }
+h3{
+    font-size: 55px;
+}
+button{
+    border: #151354 2px solid;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: var(--second-blue);
+}
+p{
+    color: var(--second-scolor-write);
+}
+
 .blue_bg{
     background-color: var(--main-color);
 }
@@ -23,24 +43,18 @@
 .projects{
     font-size: 65px;
 }
-h3{
-    font-size: 55px;
-}
-button{
-    border: #151354 2px solid;
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-    background-color: white;
-}
-a{
-    text-decoration: none;
-    color: var(--second-blue);
-}
-p{
-    color: var(--second-scolor-write);
-}
+
 .languages{
     list-style-type: none;
+}
+@media only screen and (max-width: 576px) {
+    h2.givemespace {
+        margin-top: 15px;
+    }
+    .text-descrition{
+        text-align: center;
+    }
+    .border_blu{
+        padding: 15px;
+    }
 }
