@@ -50,13 +50,14 @@ p{
 
 /* about page */
 .presentation{
-    padding: 100px;
+    padding: 90px;
 }
 
 .about_size{
     font-size: 65px;
     color: #474747;
 }
+
 /* contact */
 .contact_links{
     color: var(--second-blue);
