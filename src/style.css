@@ -50,11 +50,19 @@ p{
 
 /* about page */
 .presentation{
-    padding: 90px;
+    padding: 100px;
 }
+
 .about_size{
     font-size: 65px;
     color: #474747;
+}
+/* contact */
+.contact_links{
+    color: var(--second-blue);
+}
+.title_contact{
+    font-size: 75px;
 }
 
 @media only screen and (max-width: 576px) {
