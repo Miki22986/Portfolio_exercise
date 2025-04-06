@@ -7,17 +7,20 @@
 *{
     font-family: "Inter", sans-serif;
 }
+
 h3{
     font-size: 55px;
 }
-button{
+.button{
     border: #151354 2px solid;
     border-radius: 4px;
     font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+    line-height: 50px;
+    padding: 5px 30px;
     background-color: white;
-    margin-bottom: 10px;
+    display: block;
+    max-width: 200px;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -47,10 +50,13 @@ p{
 .languages{
     list-style-type: none;
 }
-
+.mb-6{
+    margin-bottom: 10rem !important;
+}
 /* about page */
 .presentation{
     padding: 90px;
+    margin-bottom: 40px;
 }
 
 .about_size{
@@ -65,17 +71,20 @@ p{
 .title_contact{
     font-size: 75px;
 }
-
-footer{
-    position: relative;
+@media only screen and (min-width: 600px) {
+footer {
+    margin-top: auto; 
+    width: 100%; 
+}
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 85vh; 
 }
 .rule_bottom {
-    position:absolute;
-    bottom:0;
-    left:0;
-    width:100%;
+     width: 100%;
 }
-
+}
 @media only screen and (max-width: 576px) {
    /* home */
     h1.title_size{
