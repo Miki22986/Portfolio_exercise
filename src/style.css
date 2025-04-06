@@ -77,6 +77,13 @@ footer{
 }
 
 @media only screen and (max-width: 576px) {
+   /* home */
+    h1.title_size{
+        color: white;
+    }
+    .color_sc{
+        color: white;
+    }
     h2.givemespace {
         margin-top: 15px;
     }
